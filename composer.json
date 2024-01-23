@@ -1,0 +1,19 @@
+{
+    "name": "inveteratus/neon",
+    "description": "Common blade components for Laravel using Alpine and Tailwind",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inveteratus\\Neon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inveteratus",
+            "email": "alan.mcfarlane@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
