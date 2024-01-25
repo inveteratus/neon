@@ -23,10 +23,15 @@
 }
 
 .neon-input-text > div > input,
-.neon-input-email > div > input {
+.neon-input-email > div > input,
+.neon-input-textarea > div > textarea {
     @apply w-full rounded px-2 py-2 bg-slate-50 dark:bg-slate-950 text-slate-700 dark:text-slate-300 border
     border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-blue-500
     dark:focus:ring-blue-500 focus:border-transparent;
+}
+
+.neon-input-textarea > div > textarea {
+    @apply aspect-[16/3];
 }
 
 .neon-input-password > div > div {
