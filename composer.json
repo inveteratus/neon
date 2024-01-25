@@ -15,7 +15,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "illuminate/support": "^10.42",
+        "illuminate/console": "^10.42"
+    },
     "extra": {
         "laravel": {
             "providers": [

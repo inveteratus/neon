@@ -1,0 +1,16 @@
+/* tailwind */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* fonts */
+@import "@fontsource/nunito-sans/400.css"; /* normal */
+@import "@fontsource/nunito-sans/500.css"; /* medium */
+
+/* modules/packages */
+@import "neon.css";
+
+/* layout */
+body {
+  @apply antialiased flex flex-col flex-none font-sans min-h-screen bg-slate-200 dark:bg-slate-800;
+}
