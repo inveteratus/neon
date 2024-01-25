@@ -12,5 +12,9 @@ class NeonServiceProvider extends ServiceProvider
         Blade::anonymousComponentPath(__DIR__ . '/resources/views/components', 'neon');
 
         $this->commands([InstallCommand::class]);
+
+        $this->publishes([
+            __DIR__ . '/resources/css/neon.css' => resource_path('css/neon.css'),
+        ], 'neon-assets');
     }
 }
