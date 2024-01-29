@@ -1,0 +1,37 @@
+.neon-view-login,
+.neon-view-register,
+.neon-view-password-recover,
+.neon-view-password-reset {
+    @apply flex flex-col flex-grow items-center justify-center;
+    & > form {
+        @apply bg-slate-100 p-8 max-w-md w-full flex flex-col space-y-3 rounded-lg shadow
+        dark:bg-slate-900 dark:shadow-lg;
+        & > div:last-of-type {
+            @apply pt-6 flex;
+        }
+    }
+    & > p {
+        @apply max-w-md w-full mt-1.5 text-center;
+        & > a {
+            @apply text-sm text-slate-700 hover:underline focus:outline-none focus:underline
+            dark:text-slate-300;
+        }
+    }
+}
+
+.neon-view-login > form > div:last-of-type {
+    @apply justify-between items-center;
+    & > a {
+        @apply text-sm text-slate-700 hover:underline focus:outline-none focus:underline
+        dark:text-slate-300;
+    }
+}
+
+.neon-view-password-recover > form {
+    & > p {
+        @apply text-slate-600 dark:text-slate-400 mb-1.5;
+    }
+    & > div:last-of-type {
+        @apply space-x-3;
+    }
+}

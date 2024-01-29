@@ -8,7 +8,8 @@
 @import "@fontsource/nunito-sans/500.css"; /* medium */
 
 /* modules/packages */
-@import "neon.css";
+@import "./neon/components.css";
+@import "./neon/views.css";
 
 /* layout */
 body {

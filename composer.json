@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Inveteratus\\Neon\\NeonServiceProvider"
+                "Inveteratus\\Neon\\Providers\\NeonServiceProvider"
             ]
         }
     }
